@@ -1,0 +1,60 @@
+
+.form{
+  height: fit-content;
+  width: 40%;
+ //background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  input[type=text]{
+    margin: 5px;
+    background-color: #581c87;
+    opacity: 0.7;
+    border: 1px solid rgb(24, 21, 21);
+    width: 90%;
+    height: 40px;
+    color: white;
+    text-align: center;
+  }
+  [type=submit]{
+    margin: 10px;
+    background-color: #581c87;
+
+  
+    width: 90%;
+    height: 40px;
+    color: white;
+    text-align: center;
+  }
+  textarea{
+    margin: 5px;
+    background-color: #581c87;
+    opacity: 0.7;
+    border: 1px solid rgb(24, 21, 21);
+    width: 90%;
+    height: 70px;
+    color: white;
+    text-align: center;
+  }
+  .field{
+ display: flex;
+ flex-direction: column;
+  width:100%;
+  }
+}
+
+button{
+  background-color: indigo;
+  width: 50%;
+}
+
+
+.formCont{
+  color: white;
+  background-color: black;
+  opacity: 0.8;
+  height: 70%;
+  width: 100%;
+  padding: 10px;
+}
